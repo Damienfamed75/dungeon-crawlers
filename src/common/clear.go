@@ -6,6 +6,9 @@ import (
 	"runtime"
 )
 
+// initClear is used to initialize the clear
+// map of functions for clearing the console
+// in the desired operating systems.
 func initClear() {
 	clear = make(map[string]func())
 	clear["linux"] = func() {

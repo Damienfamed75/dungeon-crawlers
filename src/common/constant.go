@@ -1,8 +1,11 @@
 package common
 
 const (
-	appID = "dungeon-crawlers"
+	appName = "Dungeon Crawlers"
 
-	// major.minor.patch.fix
-	version = "0.1.0.0"
+	appVersion = "0.0.1" // major.minor.patch
+
+	appDescriptionShort = "Dungeon crawling game"
+
+	appDescriptionLong = "Dungeon crawling text based adventure game."
 )

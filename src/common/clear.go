@@ -6,6 +6,8 @@ import (
 	"runtime"
 )
 
+var goos = func() string { return runtime.GOOS }
+
 // initClear is used to initialize the clear
 // map of functions for clearing the console
 // in the desired operating systems.
@@ -31,7 +33,7 @@ func Clear() {
 	}
 
 	// runtime.GOOS is to check the GO Operating System.
-	clsFunc, ok := clear[runtime.GOOS]
+	clsFunc, ok := clear[goos()]
 	if ok {
 		clsFunc()
 	} else {

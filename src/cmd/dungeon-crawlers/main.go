@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"time"
 
 	"github.com/damienfamed75/dungeon-crawlers/src/common"
 )
@@ -22,4 +23,12 @@ func main() {
 	common.Clear()
 
 	fmt.Println("Hello," + username)
+
+	var age int
+	fmt.Println("What is your age?")
+	fmt.Scan(&age)
+
+	fmt.Printf("You're %v years old", age)
+
+	time.Sleep(time.Second * 1)
 }

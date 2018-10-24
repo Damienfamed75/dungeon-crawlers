@@ -1,0 +1,49 @@
+{
+    "character": {
+        "username": "damien",
+        "class": "warrior",
+        "level": 12,
+        "gold": 234,
+        "health": {
+            "max": 100,
+            "curr": 78
+        },
+        "magic": {
+            "max": 200,
+            "curr": 175
+        },
+        "inventory": {
+            "broadsword": {
+                "durability": {
+                    "max": 100,
+                    "curr": 40
+                },
+                "effect": "cursed",
+                "count": 1
+            },
+            "healthPotion": {
+                "count": 12
+            },
+            "woodenStaff": {
+                "durability": {
+                    "max": 100,
+                    "curr": 89
+                },
+                "count": 1
+            }
+        }
+    },
+    "location": {
+        "area": "north",
+        "id": "2a"
+    },
+    "progression": {
+        "currentQuest": "Sound in the west",
+        "completedQuests": [
+            "Sound in the north",
+            "Terrible neighbor",
+            "Blacksmith's Secret",
+            "Grandma's Soup"
+        ]
+    }
+}
